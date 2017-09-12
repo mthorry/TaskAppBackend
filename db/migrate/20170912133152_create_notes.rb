@@ -8,7 +8,7 @@ class CreateNotes < ActiveRecord::Migration[5.1]
       t.string :due_date
       t.string :time_completed
       t.string :location
-      t.integer :user_id
+      t.integer :list_id
       # tags will go on join table
 
 

@@ -12,7 +12,7 @@ class Api::V1::NotesController < ApplicationController
 
   private
     def note_params
-      params.permit(:title, :body, :est_hours, :due_date, :location)
+      params.permit(:title, :body, :est_hours, :due_date, :location, :list_id)
     end
 
 end
