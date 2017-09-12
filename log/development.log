@@ -1137,3 +1137,176 @@ Migrating to CreateNotes (20170912133152)
   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
   [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "When lost take a walk, then bifriend <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/\">MDN</a> and <a target=\"_blank\" href=\"http://api.rubyonrails.org/\">api.rubyonrails.org</a>."], ["created_at", "2017-09-12 19:04:39.816815"], ["updated_at", "2017-09-12 19:04:39.816815"]]
   [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:14:11 -0400
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.8ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, title: nil, body: "The frontend (Vanilla JS) and backend (Rails API) ...", est_hours: nil, actual_hours: nil, due_date: nil, time_completed: nil, location: nil, user_id: nil, created_at: "2017-09-12 19:04:39", updated_at: "2017-09-12 19:04:39">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (2.79ms)
+Completed 200 OK in 36ms (Views: 26.3ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:14:17 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (1.3ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, title: nil, body: "The frontend (Vanilla JS) and backend (Rails API) ...", est_hours: nil, actual_hours: nil, due_date: nil, time_completed: nil, location: nil, user_id: nil, created_at: "2017-09-12 19:04:39", updated_at: "2017-09-12 19:04:39">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (3.23ms)
+Completed 200 OK in 40ms (Views: 22.0ms | ActiveRecord: 17.5ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:14:42 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"abc", "body"=>"def", "estHours"=>"12", "dueDate"=>"1932-04-29T06:21", "location"=>"the city", "note"=>{"title"=>"abc", "body"=>"def", "location"=>"the city"}}
+Unpermitted parameters: :title, :estHours, :dueDate, :location, :note
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "def"], ["created_at", "2017-09-12 19:14:42.792408"], ["updated_at", "2017-09-12 19:14:42.792408"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.72ms)
+Completed 201 Created in 11ms (Views: 3.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:21:01 -0400
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:21:11 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.4ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, title: nil, body: "The frontend (Vanilla JS) and backend (Rails API) ...", est_hours: nil, actual_hours: nil, due_date: nil, time_completed: nil, location: nil, user_id: nil, created_at: "2017-09-12 19:04:39", updated_at: "2017-09-12 19:04:39">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (3.09ms)
+Completed 200 OK in 27ms (Views: 23.8ms | ActiveRecord: 0.4ms)
+
+
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.3ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, title: nil, body: "The frontend (Vanilla JS) and backend (Rails API) ...", est_hours: nil, actual_hours: nil, due_date: nil, time_completed: nil, location: nil, user_id: nil, created_at: "2017-09-12 19:04:39", updated_at: "2017-09-12 19:04:39">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (3.3ms)
+Completed 200 OK in 28ms (Views: 24.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:21:33 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"abc", "body"=>"hgf", "estHours"=>"", "dueDate"=>"", "location"=>"", "note"=>{"title"=>"abc", "body"=>"hgf", "location"=>""}}
+Unpermitted parameters: :estHours, :dueDate, :location, :note
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "notes" ("title", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "abc"], ["body", "hgf"], ["created_at", "2017-09-12 19:21:33.653690"], ["updated_at", "2017-09-12 19:21:33.653690"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (1.42ms)
+Completed 201 Created in 9ms (Views: 2.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:23:38 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.8ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, title: nil, body: "The frontend (Vanilla JS) and backend (Rails API) ...", est_hours: nil, actual_hours: nil, due_date: nil, time_completed: nil, location: nil, user_id: nil, created_at: "2017-09-12 19:04:39", updated_at: "2017-09-12 19:04:39">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (5.28ms)
+Completed 200 OK in 44ms (Views: 34.2ms | ActiveRecord: 7.3ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:23:49 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"FIRST TITLELELLE", "body"=>"THE BADDDY", "estHours"=>"", "dueDate"=>"", "location"=>"", "note"=>{"title"=>"FIRST TITLELELLE", "body"=>"THE BADDDY", "location"=>""}}
+Unpermitted parameter: :note
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'estHours' for Note.):
+  
+app/controllers/api/v1/notes_controller.rb:9:in `create'
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:26:05 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.4ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, title: nil, body: "The frontend (Vanilla JS) and backend (Rails API) ...", est_hours: nil, actual_hours: nil, due_date: nil, time_completed: nil, location: nil, user_id: nil, created_at: "2017-09-12 19:04:39", updated_at: "2017-09-12 19:04:39">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (3.34ms)
+Completed 200 OK in 29ms (Views: 26.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:26:30 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"title num 7", "body"=>"stomach", "estHours"=>"", "dueDate"=>"", "location"=>"", "note"=>{"title"=>"title num 7", "body"=>"stomach", "location"=>""}}
+Unpermitted parameters: :title, :body, :estHours, :dueDate, :location, :note
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[32mINSERT INTO "notes" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2017-09-12 19:26:30.232604"], ["updated_at", "2017-09-12 19:26:30.232604"]]
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.36ms)
+Completed 201 Created in 24ms (Views: 13.8ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:26:51 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.8ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, title: nil, body: "The frontend (Vanilla JS) and backend (Rails API) ...", est_hours: nil, actual_hours: nil, due_date: nil, time_completed: nil, location: nil, user_id: nil, created_at: "2017-09-12 19:04:39", updated_at: "2017-09-12 19:04:39">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (5.38ms)
+Completed 200 OK in 58ms (Views: 41.0ms | ActiveRecord: 12.6ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:31:58 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.7ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, title: nil, body: "The frontend (Vanilla JS) and backend (Rails API) ...", est_hours: nil, actual_hours: nil, due_date: nil, time_completed: nil, location: nil, user_id: nil, created_at: "2017-09-12 19:04:39", updated_at: "2017-09-12 19:04:39">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (5.66ms)
+Completed 200 OK in 66ms (Views: 47.8ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:33:35 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"title 282", "body"=>"body 3232", "est_hours"=>"109", "due_date"=>"2018-09-21T18:12", "location"=>"home", "note"=>{"title"=>"title 282", "body"=>"body 3232", "est_hours"=>"109", "due_date"=>"2018-09-21T18:12", "location"=>"home"}}
+Unpermitted parameter: :note
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "notes" ("title", "body", "est_hours", "due_date", "location", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "title 282"], ["body", "body 3232"], ["est_hours", 109], ["due_date", "2018-09-21T18:12"], ["location", "home"], ["created_at", "2017-09-12 19:33:35.773949"], ["updated_at", "2017-09-12 19:33:35.773949"]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.5ms)
+Completed 201 Created in 9ms (Views: 1.1ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:40:34 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.8ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, title: nil, body: "The frontend (Vanilla JS) and backend (Rails API) ...", est_hours: nil, actual_hours: nil, due_date: nil, time_completed: nil, location: nil, user_id: nil, created_at: "2017-09-12 19:04:39", updated_at: "2017-09-12 19:04:39">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (4.83ms)
+Completed 200 OK in 39ms (Views: 29.6ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:42:22 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (1.3ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, title: nil, body: "The frontend (Vanilla JS) and backend (Rails API) ...", est_hours: nil, actual_hours: nil, due_date: nil, time_completed: nil, location: nil, user_id: nil, created_at: "2017-09-12 19:04:39", updated_at: "2017-09-12 19:04:39">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (3.89ms)
+Completed 200 OK in 37ms (Views: 21.3ms | ActiveRecord: 15.5ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:43:28 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"last post ever", "body"=>"jest keiddindn", "est_hours"=>"12", "due_date"=>"1999-02-02T16:27", "location"=>"home", "note"=>{"title"=>"last post ever", "body"=>"jest keiddindn", "est_hours"=>"12", "due_date"=>"1999-02-02T16:27", "location"=>"home"}}
+Unpermitted parameter: :note
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "notes" ("title", "body", "est_hours", "due_date", "location", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "last post ever"], ["body", "jest keiddindn"], ["est_hours", 12], ["due_date", "1999-02-02T16:27"], ["location", "home"], ["created_at", "2017-09-12 19:43:28.820926"], ["updated_at", "2017-09-12 19:43:28.820926"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.58ms)
+Completed 201 Created in 11ms (Views: 3.2ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:44:03 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (4.6ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, title: nil, body: "The frontend (Vanilla JS) and backend (Rails API) ...", est_hours: nil, actual_hours: nil, due_date: nil, time_completed: nil, location: nil, user_id: nil, created_at: "2017-09-12 19:04:39", updated_at: "2017-09-12 19:04:39">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (9.13ms)
+Completed 200 OK in 19ms (Views: 14.3ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:44:13 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.7ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, title: nil, body: "The frontend (Vanilla JS) and backend (Rails API) ...", est_hours: nil, actual_hours: nil, due_date: nil, time_completed: nil, location: nil, user_id: nil, created_at: "2017-09-12 19:04:39", updated_at: "2017-09-12 19:04:39">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (8.85ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 15:44:24 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (1.2ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, title: nil, body: "The frontend (Vanilla JS) and backend (Rails API) ...", est_hours: nil, actual_hours: nil, due_date: nil, time_completed: nil, location: nil, user_id: nil, created_at: "2017-09-12 19:04:39", updated_at: "2017-09-12 19:04:39">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (8.35ms)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 1.2ms)
+
+
