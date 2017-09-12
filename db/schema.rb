@@ -16,7 +16,14 @@ ActiveRecord::Schema.define(version: 20170912133152) do
   enable_extension "plpgsql"
 
   create_table "notes", force: :cascade do |t|
+    t.string "title"
     t.string "body"
+    t.integer "est_hours"
+    t.integer "actual_hours"
+    t.string "due_date"
+    t.string "time_completed"
+    t.string "location"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

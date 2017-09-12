@@ -572,3 +572,568 @@ No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS)
 Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.7ms)
 
 
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:10:22 -0400
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.8ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 15:16:44", updated_at: "2017-09-12 15:16:44">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (3.37ms)
+Completed 200 OK in 34ms (Views: 22.9ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:10:24 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.9ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 15:16:44", updated_at: "2017-09-12 15:16:44">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (6.18ms)
+Completed 200 OK in 27ms (Views: 18.0ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:11:23 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.6ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 15:16:44", updated_at: "2017-09-12 15:16:44">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (3.4ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:12:05 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (1.3ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 15:16:44", updated_at: "2017-09-12 15:16:44">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (7.84ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:12:10 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.8ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 15:16:44", updated_at: "2017-09-12 15:16:44">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (6.98ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:12:30 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.9ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 15:16:44", updated_at: "2017-09-12 15:16:44">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (4.88ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:12:48 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.5ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 15:16:44", updated_at: "2017-09-12 15:16:44">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (7.24ms)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:12:55 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (1.4ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 15:16:44", updated_at: "2017-09-12 15:16:44">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (6.02ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:14:04 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.6ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 15:16:44", updated_at: "2017-09-12 15:16:44">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (5.98ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:14:10 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (1.3ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 15:16:44", updated_at: "2017-09-12 15:16:44">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (6.38ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:14:16 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.6ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 15:16:44", updated_at: "2017-09-12 15:16:44">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (6.42ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:20:59 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.7ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 15:16:44", updated_at: "2017-09-12 15:16:44">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (6.45ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:21:23 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"body"=>"this is the ody", "note"=>{"body"=>"this is the ody"}}
+Unpermitted parameter: :note
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "this is the ody"], ["created_at", "2017-09-12 18:21:23.952041"], ["updated_at", "2017-09-12 18:21:23.952041"]]
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.38ms)
+Completed 201 Created in 10ms (Views: 3.5ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:25:41 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.8ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 15:16:44", updated_at: "2017-09-12 15:16:44">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (9.02ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.8ms)
+
+
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (128.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "ProductivityManager_development"[0m
+  [1m[35m (123.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "ProductivityManager_test"[0m
+  [1m[35m (351.2ms)[0m  [1m[35mCREATE DATABASE "ProductivityManager_development" ENCODING = 'unicode'[0m
+  [1m[35m (289.0ms)[0m  [1m[35mCREATE DATABASE "ProductivityManager_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "notes" CASCADE[0m
+  [1m[35m (11.2ms)[0m  [1m[35mCREATE TABLE "notes" ("id" bigserial primary key, "body" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (6.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20170912133152)[0m
+  [1m[35m (7.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-09-12 18:29:03.882770"], ["updated_at", "2017-09-12 18:29:03.882770"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.7ms)[0m  [1m[35mDROP TABLE IF EXISTS "notes" CASCADE[0m
+  [1m[35m (8.3ms)[0m  [1m[35mCREATE TABLE "notes" ("id" bigserial primary key, "body" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (5.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20170912133152)[0m
+  [1m[35m (7.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-09-12 18:29:03.957400"], ["updated_at", "2017-09-12 18:29:03.957400"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "The frontend (Vanilla JS) and backend (Rails API) will reside in two separate repos"], ["created_at", "2017-09-12 18:29:04.007415"], ["updated_at", "2017-09-12 18:29:04.007415"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Install and configure Postgresql <a target=\"_blank\" href=\"https://postgresapp.com/\">Postgresapp</a>."], ["created_at", "2017-09-12 18:29:04.010949"], ["updated_at", "2017-09-12 18:29:04.010949"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Remember to use \"--database=postgresql\" when generating your Rails application to use Postgresql vs SqlLite."], ["created_at", "2017-09-12 18:29:04.013796"], ["updated_at", "2017-09-12 18:29:04.013796"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Create your Rails application as an <a target=\"_blank\" href=\"http://guides.rubyonrails.org/api_app.html\">API</a>."], ["created_at", "2017-09-12 18:29:04.016507"], ["updated_at", "2017-09-12 18:29:04.016507"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Add support for <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS\">cross-origin resource sharing</a>, using <a target=\"_blank\" href=\" https://github.com/cyu/rack-cors\">rack-cors</a>. See this <a target=\"_blank\" href=\"https://github.com/learn-co-curriculum/js-project-week-setup/commit/8272dbfcde33503adbb22bb0dbc731233527fad6\">commit</a> as a reference."], ["created_at", "2017-09-12 18:29:04.019751"], ["updated_at", "2017-09-12 18:29:04.019751"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Design your data model and define the structure of your JSON data."], ["created_at", "2017-09-12 18:29:04.022570"], ["updated_at", "2017-09-12 18:29:04.022570"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Remember to namespace your <a target=\"_blank\" href=\"http://guides.rubyonrails.org/routing.html#controller-namespaces-and-routing\">routes and controllers</a>."], ["created_at", "2017-09-12 18:29:04.025624"], ["updated_at", "2017-09-12 18:29:04.025624"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Learn <a href=\"https://chriskottom.com/blog/2017/04/versioning-a-rails-api\"/>why</a> version an API"], ["created_at", "2017-09-12 18:29:04.028571"], ["updated_at", "2017-09-12 18:29:04.028571"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "When lost take a walk, then bifriend <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/\">MDN</a> and <a target=\"_blank\" href=\"http://api.rubyonrails.org/\">api.rubyonrails.org</a>."], ["created_at", "2017-09-12 18:29:04.031383"], ["updated_at", "2017-09-12 18:29:04.031383"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2166832526546176125)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(2166832526546176125)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "The frontend (Vanilla JS) and backend (Rails API) will reside in two separate repos"], ["created_at", "2017-09-12 18:29:20.841570"], ["updated_at", "2017-09-12 18:29:20.841570"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Install and configure Postgresql <a target=\"_blank\" href=\"https://postgresapp.com/\">Postgresapp</a>."], ["created_at", "2017-09-12 18:29:20.845261"], ["updated_at", "2017-09-12 18:29:20.845261"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Remember to use \"--database=postgresql\" when generating your Rails application to use Postgresql vs SqlLite."], ["created_at", "2017-09-12 18:29:20.848199"], ["updated_at", "2017-09-12 18:29:20.848199"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Create your Rails application as an <a target=\"_blank\" href=\"http://guides.rubyonrails.org/api_app.html\">API</a>."], ["created_at", "2017-09-12 18:29:20.851275"], ["updated_at", "2017-09-12 18:29:20.851275"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Add support for <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS\">cross-origin resource sharing</a>, using <a target=\"_blank\" href=\" https://github.com/cyu/rack-cors\">rack-cors</a>. See this <a target=\"_blank\" href=\"https://github.com/learn-co-curriculum/js-project-week-setup/commit/8272dbfcde33503adbb22bb0dbc731233527fad6\">commit</a> as a reference."], ["created_at", "2017-09-12 18:29:20.854433"], ["updated_at", "2017-09-12 18:29:20.854433"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Design your data model and define the structure of your JSON data."], ["created_at", "2017-09-12 18:29:20.857448"], ["updated_at", "2017-09-12 18:29:20.857448"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Remember to namespace your <a target=\"_blank\" href=\"http://guides.rubyonrails.org/routing.html#controller-namespaces-and-routing\">routes and controllers</a>."], ["created_at", "2017-09-12 18:29:20.860314"], ["updated_at", "2017-09-12 18:29:20.860314"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Learn <a href=\"https://chriskottom.com/blog/2017/04/versioning-a-rails-api\"/>why</a> version an API"], ["created_at", "2017-09-12 18:29:20.863169"], ["updated_at", "2017-09-12 18:29:20.863169"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "When lost take a walk, then bifriend <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/\">MDN</a> and <a target=\"_blank\" href=\"http://api.rubyonrails.org/\">api.rubyonrails.org</a>."], ["created_at", "2017-09-12 18:29:20.865843"], ["updated_at", "2017-09-12 18:29:20.865843"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:29:32 -0400
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:29:32 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.8ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"body"=>"", "note"=>{"body"=>""}}
+Unpermitted parameter: :note
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 18:29:04", updated_at: "2017-09-12 18:29:04">
+  [1m[35m (13.9ms)[0m  [1m[35mBEGIN[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (4.21ms)
+Completed 200 OK in 45ms (Views: 36.2ms | ActiveRecord: 5.1ms)
+
+
+  [1m[35mSQL (4.0ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", ""], ["created_at", "2017-09-12 18:29:32.783773"], ["updated_at", "2017-09-12 18:29:32.783773"]]
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.84ms)
+Completed 201 Created in 42ms (Views: 2.8ms | ActiveRecord: 30.8ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:30:26 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.8ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 18:29:04", updated_at: "2017-09-12 18:29:04">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (6.43ms)
+Completed 200 OK in 32ms (Views: 20.8ms | ActiveRecord: 11.2ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:38:53 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.8ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 18:29:04", updated_at: "2017-09-12 18:29:04">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (7.94ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:40:45 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"noteInfo"=>{"title"=>"dguhsbi", "body"=>"njsdjngnjgkk", "estHours"=>"12", "dueDate"=>"2008-09-08T00:22", "location"=>"office"}, "note"=>{}}
+Unpermitted parameters: :noteInfo, :note
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (4.2ms)[0m  [1m[32mINSERT INTO "notes" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2017-09-12 18:40:45.597480"], ["updated_at", "2017-09-12 18:40:45.597480"]]
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.66ms)
+Completed 201 Created in 19ms (Views: 1.5ms | ActiveRecord: 10.5ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:40:45 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.6ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 18:29:04", updated_at: "2017-09-12 18:29:04">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (6.73ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:43:15 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"yuhiud", "body"=>"kd", "estHours"=>"14", "dueDate"=>"2222-03-02T13:01", "location"=>"parosrko", "note"=>{"body"=>"kd"}}
+Unpermitted parameters: :title, :estHours, :dueDate, :location, :note
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "kd"], ["created_at", "2017-09-12 18:43:15.937193"], ["updated_at", "2017-09-12 18:43:15.937193"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.36ms)
+Completed 201 Created in 7ms (Views: 1.1ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:43:44 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"yuhiud", "body"=>"kd", "estHours"=>"14", "dueDate"=>"2222-03-02T13:01", "location"=>"parosrko", "note"=>{"body"=>"kd"}}
+Unpermitted parameters: :title, :estHours, :dueDate, :location, :note
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "kd"], ["created_at", "2017-09-12 18:43:44.880787"], ["updated_at", "2017-09-12 18:43:44.880787"]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.25ms)
+Completed 201 Created in 7ms (Views: 0.8ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:43:55 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"yuhiud", "body"=>"kd", "estHours"=>"14", "dueDate"=>"2222-03-02T13:01", "location"=>"parosrko", "note"=>{"body"=>"kd"}}
+Unpermitted parameters: :title, :estHours, :dueDate, :location, :note
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "kd"], ["created_at", "2017-09-12 18:43:55.333980"], ["updated_at", "2017-09-12 18:43:55.333980"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.66ms)
+Completed 201 Created in 7ms (Views: 1.5ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:44:00 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"yuhiud", "body"=>"kd", "estHours"=>"14", "dueDate"=>"2222-03-02T13:01", "location"=>"parosrko", "note"=>{"body"=>"kd"}}
+Unpermitted parameters: :title, :estHours, :dueDate, :location, :note
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "kd"], ["created_at", "2017-09-12 18:44:00.318843"], ["updated_at", "2017-09-12 18:44:00.318843"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.39ms)
+Completed 201 Created in 7ms (Views: 1.1ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:44:38 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"yuhiud", "body"=>"kd", "estHours"=>"14", "dueDate"=>"2222-03-02T13:01", "location"=>"parosrko", "note"=>{"body"=>"kd"}}
+Unpermitted parameters: :title, :estHours, :dueDate, :location, :note
+  [1m[35m (3.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "kd"], ["created_at", "2017-09-12 18:44:38.470996"], ["updated_at", "2017-09-12 18:44:38.470996"]]
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.36ms)
+Completed 201 Created in 26ms (Views: 1.1ms | ActiveRecord: 12.1ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:44:38 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.7ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 18:29:04", updated_at: "2017-09-12 18:29:04">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (13.1ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:45:04 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"hey ehy", "body"=>"oh hi here", "estHours"=>"24", "dueDate"=>"2000-02-29T21:45", "location"=>"nowhere", "note"=>{"body"=>"oh hi here"}}
+Unpermitted parameters: :title, :estHours, :dueDate, :location, :note
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "oh hi here"], ["created_at", "2017-09-12 18:45:04.673974"], ["updated_at", "2017-09-12 18:45:04.673974"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.41ms)
+Completed 201 Created in 7ms (Views: 1.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:46:28 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.6ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 18:29:04", updated_at: "2017-09-12 18:29:04">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (11.24ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:46:43 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"aaddadss", "body"=>"oh thats me ahain", "estHours"=>"", "dueDate"=>"", "location"=>"", "note"=>{"body"=>"oh thats me ahain"}}
+Unpermitted parameters: :title, :estHours, :dueDate, :location, :note
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "oh thats me ahain"], ["created_at", "2017-09-12 18:46:43.049047"], ["updated_at", "2017-09-12 18:46:43.049047"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.32ms)
+Completed 201 Created in 7ms (Views: 1.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:47:17 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.6ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 18:29:04", updated_at: "2017-09-12 18:29:04">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (10.46ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:47:29 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"this is a post it note", "body"=>"tomato", "estHours"=>"", "dueDate"=>"", "location"=>"", "note"=>{"body"=>"tomato"}}
+Unpermitted parameters: :title, :estHours, :dueDate, :location, :note
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "tomato"], ["created_at", "2017-09-12 18:47:29.387848"], ["updated_at", "2017-09-12 18:47:29.387848"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.44ms)
+Completed 201 Created in 6ms (Views: 1.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:48:09 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (1.4ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 18:29:04", updated_at: "2017-09-12 18:29:04">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (17.06ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:48:25 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"not another title oh my godd", "body"=>"feet", "estHours"=>"", "dueDate"=>"", "location"=>"", "note"=>{"body"=>"feet"}}
+Unpermitted parameters: :title, :estHours, :dueDate, :location, :note
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "feet"], ["created_at", "2017-09-12 18:48:25.890652"], ["updated_at", "2017-09-12 18:48:25.890652"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.41ms)
+Completed 201 Created in 6ms (Views: 1.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:51:37 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.6ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 18:29:04", updated_at: "2017-09-12 18:29:04">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (19.26ms)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:51:44 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"potato", "body"=>"tomato", "estHours"=>"", "dueDate"=>"", "location"=>"", "note"=>{"body"=>"tomato"}}
+Unpermitted parameters: :title, :estHours, :dueDate, :location, :note
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "tomato"], ["created_at", "2017-09-12 18:51:44.088593"], ["updated_at", "2017-09-12 18:51:44.088593"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.43ms)
+Completed 201 Created in 6ms (Views: 1.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:54:29 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (1.6ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 18:29:04", updated_at: "2017-09-12 18:29:04">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (16.6ms)
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:54:43 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (1.2ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 18:29:04", updated_at: "2017-09-12 18:29:04">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (8.75ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:54:48 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"asas", "body"=>"gfgf", "estHours"=>"", "dueDate"=>"", "location"=>"", "note"=>{"body"=>"gfgf"}}
+Unpermitted parameters: :title, :estHours, :dueDate, :location, :note
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "gfgf"], ["created_at", "2017-09-12 18:54:48.926221"], ["updated_at", "2017-09-12 18:54:48.926221"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.38ms)
+Completed 201 Created in 7ms (Views: 1.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:55:31 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.8ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 18:29:04", updated_at: "2017-09-12 18:29:04">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (10.65ms)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:55:44 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"123", "body"=>"345", "estHours"=>"", "dueDate"=>"", "location"=>"", "note"=>{"body"=>"345"}}
+Unpermitted parameters: :title, :estHours, :dueDate, :location, :note
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "345"], ["created_at", "2017-09-12 18:55:44.488111"], ["updated_at", "2017-09-12 18:55:44.488111"]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.38ms)
+Completed 201 Created in 7ms (Views: 1.0ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:56:09 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (3.8ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 18:29:04", updated_at: "2017-09-12 18:29:04">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (12.39ms)
+Completed 200 OK in 35ms (Views: 31.1ms | ActiveRecord: 3.8ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:56:13 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"as", "body"=>"df", "estHours"=>"", "dueDate"=>"", "location"=>"", "note"=>{"body"=>"df"}}
+Unpermitted parameters: :title, :estHours, :dueDate, :location, :note
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "df"], ["created_at", "2017-09-12 18:56:13.723496"], ["updated_at", "2017-09-12 18:56:13.723496"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.37ms)
+Completed 201 Created in 7ms (Views: 1.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:56:46 -0400
+Processing by Api::V1::NotesController#index as */*
+  [1m[36mNote Load (0.6ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+No serializer found for resource: #<Note id: 1, body: "The frontend (Vanilla JS) and backend (Rails API) ...", created_at: "2017-09-12 18:29:04", updated_at: "2017-09-12 18:29:04">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Note::ActiveRecord_Relation (10.9ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/v1/notes" for 127.0.0.1 at 2017-09-12 14:56:53 -0400
+Processing by Api::V1::NotesController#create as */*
+  Parameters: {"title"=>"ijfh", "body"=>"099", "estHours"=>"", "dueDate"=>"", "location"=>"", "note"=>{"body"=>"099"}}
+Unpermitted parameters: :title, :estHours, :dueDate, :location, :note
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "099"], ["created_at", "2017-09-12 18:56:53.454702"], ["updated_at", "2017-09-12 18:56:53.454702"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Note (0.36ms)
+Completed 201 Created in 8ms (Views: 1.5ms | ActiveRecord: 3.0ms)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (5048.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "ProductivityManager_development"[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (122.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "ProductivityManager_development"[0m
+  [1m[35m (123.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "ProductivityManager_test"[0m
+  [1m[35m (7.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (8.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2166832526546176125)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateNotes (20170912133152)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (6.4ms)[0m  [1m[35mCREATE TABLE "notes" ("id" bigserial primary key, "title" character varying, "body" character varying, "est_hours" integer, "actual_hours" integer, "due_date" character varying, "time_completed" character varying, "location" character varying, "user_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170912133152"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-09-12 19:04:22.515966"], ["updated_at", "2017-09-12 19:04:22.515966"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(2166832526546176125)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "The frontend (Vanilla JS) and backend (Rails API) will reside in two separate repos"], ["created_at", "2017-09-12 19:04:39.790182"], ["updated_at", "2017-09-12 19:04:39.790182"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Install and configure Postgresql <a target=\"_blank\" href=\"https://postgresapp.com/\">Postgresapp</a>."], ["created_at", "2017-09-12 19:04:39.794319"], ["updated_at", "2017-09-12 19:04:39.794319"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Remember to use \"--database=postgresql\" when generating your Rails application to use Postgresql vs SqlLite."], ["created_at", "2017-09-12 19:04:39.797843"], ["updated_at", "2017-09-12 19:04:39.797843"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Create your Rails application as an <a target=\"_blank\" href=\"http://guides.rubyonrails.org/api_app.html\">API</a>."], ["created_at", "2017-09-12 19:04:39.801054"], ["updated_at", "2017-09-12 19:04:39.801054"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Add support for <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS\">cross-origin resource sharing</a>, using <a target=\"_blank\" href=\" https://github.com/cyu/rack-cors\">rack-cors</a>. See this <a target=\"_blank\" href=\"https://github.com/learn-co-curriculum/js-project-week-setup/commit/8272dbfcde33503adbb22bb0dbc731233527fad6\">commit</a> as a reference."], ["created_at", "2017-09-12 19:04:39.804200"], ["updated_at", "2017-09-12 19:04:39.804200"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Design your data model and define the structure of your JSON data."], ["created_at", "2017-09-12 19:04:39.807246"], ["updated_at", "2017-09-12 19:04:39.807246"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Remember to namespace your <a target=\"_blank\" href=\"http://guides.rubyonrails.org/routing.html#controller-namespaces-and-routing\">routes and controllers</a>."], ["created_at", "2017-09-12 19:04:39.810335"], ["updated_at", "2017-09-12 19:04:39.810335"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "Learn <a href=\"https://chriskottom.com/blog/2017/04/versioning-a-rails-api\"/>why</a> version an API"], ["created_at", "2017-09-12 19:04:39.814051"], ["updated_at", "2017-09-12 19:04:39.814051"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "notes" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "When lost take a walk, then bifriend <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/\">MDN</a> and <a target=\"_blank\" href=\"http://api.rubyonrails.org/\">api.rubyonrails.org</a>."], ["created_at", "2017-09-12 19:04:39.816815"], ["updated_at", "2017-09-12 19:04:39.816815"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
