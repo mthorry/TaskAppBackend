@@ -10,9 +10,22 @@ class Api::V1::ListsController < ApplicationController
     render json: @list, status: 201
   end
 
+  def update
+    @note = Note.create(note_params)
+    @list = List.find(params[:id])
+    @list.notes << @note 
+
+    render json: @note, status: 200
+  end
+
   private
+
     def list_params
       params.permit(:title, :user_id)
+    end
+
+    def note_params
+      params.permit(:title, :body, :est_hours, :due_date, :location, :list_id)
     end
 
 end
