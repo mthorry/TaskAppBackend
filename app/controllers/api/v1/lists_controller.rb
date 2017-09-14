@@ -1,7 +1,7 @@
 class Api::V1::ListsController < ApplicationController
 
   def index
-    byebug
+    # byebug
     @lists = List.all # adjust sql query to order how we want
     # @lists.first.notes = @lists.first.notes.order()
     render json: @lists, status: 200
@@ -16,7 +16,7 @@ class Api::V1::ListsController < ApplicationController
   def update
     @note = Note.create(note_params)
     @list = List.find(params[:id])
-    @list.notes << @note 
+    @list.notes << @note
 
     render json: @note, status: 200
   end
