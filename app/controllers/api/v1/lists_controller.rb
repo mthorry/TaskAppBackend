@@ -1,8 +1,11 @@
 class Api::V1::ListsController < ApplicationController
 
   def index
-    @lists = List.all
+    byebug
+    @lists = List.all # adjust sql query to order how we want
+    # @lists.first.notes = @lists.first.notes.order()
     render json: @lists, status: 200
+
   end
 
   def create
