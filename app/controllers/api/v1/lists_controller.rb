@@ -18,6 +18,12 @@ class Api::V1::ListsController < ApplicationController
     render json: @note, status: 200
   end
 
+  def destroy
+    @list = List.find(params[:id])
+    @list.destroy
+    render json: @list, status: 200
+  end
+
   private
 
     def list_params
