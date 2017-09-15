@@ -2,8 +2,18 @@ class Api::V1::ListsController < ApplicationController
 
   def index
     # byebug
-    @lists = List.all # adjust sql query to order how we want
+    @lists = List.includes(:notes).all # adjust sql query to order how we want
     # @lists.first.notes = @lists.first.notes.order()
+    # binding.pry
+
+    @lists = @lists.each do |list|
+      list.notes = list.notes.sort_by do |note|
+        note.created_at        
+      end
+    end.reverse
+    
+    # binding.pry
+
     render json: @lists, status: 200
 
   end
